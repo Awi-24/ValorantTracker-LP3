@@ -34,11 +34,11 @@ function Navbar() {
         isNavbarVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-full'
       }`}
     >
-      <nav className="flex flex-row font-light italic overflow-clip items-center align-middle uppercase font-roboto justify-center">
+      <nav className="flex flex-row  overflow-clip items-center align-middle uppercase font-valorant justify-center">
         <Link
           to="/"
           onClick={() => handleTabClick('start')}
-          className={`px-7 rounded-l-md ${
+          className={`px-7 rounded-l-sm ${
             activeTab === 'start' ? 'bg-mainred' : 'bg-gray-800'
           } hover:bg-mainred`}
         >
@@ -63,7 +63,7 @@ function Navbar() {
           Weapons
         </Link>
         <Link
-          to="/maps"
+          to="/Maps"
           onClick={() => handleTabClick('maps')}
           className={`px-7 ${
             activeTab === 'maps' ? 'bg-mainred' : 'bg-gray-900'
@@ -74,7 +74,7 @@ function Navbar() {
         <Link
           to="/esports"
           onClick={() => handleTabClick('esports')}
-          className={`px-7 rounded-r-md ${
+          className={`px-7 rounded-r-sm ${
             activeTab === 'esports' ? 'bg-mainred' : 'bg-gray-800'
           } hover:bg-mainred`}
         >

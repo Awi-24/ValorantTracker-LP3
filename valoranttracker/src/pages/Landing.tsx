@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 function Landing() {
@@ -6,12 +5,12 @@ function Landing() {
     <div className="bg-valorant-menu w-full h-screen bg-cover pt-28">
       <div className="mt-[620px] flex flex-col justify-center align-middle items-center text-start font-roboto">
         <h1 className="text-5xl font-inter italic text-white">Welcome to</h1>
-        <h2 className="text-9xl font-valorant text-white">Valorant Tra<span className="text-mainred">ck</span>er</h2>
+        <h2 className="text-9xl font-valorant text-white">Radiante Tra<span className="text-mainred">ck</span>er</h2>
         <Link to="/agents">
           <button
-            className="font-roboto m-4 text-4xl hover:bg-mainred bg-darkred px-6 py-4 rounded-full uppercase font-bold text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110"
+            className="font-roboto m-4 text-4xl hover:bg-mainred bg-darkred px-6 py-4 rounded-sm uppercase font-bold text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110"
           >
-            Start
+            Login
           </button>
         </Link>
       </div>

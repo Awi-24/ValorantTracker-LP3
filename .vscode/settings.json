@@ -1,0 +1,14 @@
+{
+    "dataworkspace.excludedProjects": [
+        "RadianteDB/RadianteDB.sqlproj"
+    ],
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "radianteDB",
+            "database": "${workspaceFolder:ValorantTracker-LP3}/valoranttracker/database/radianteDB/radianteDB.sqlproj"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
