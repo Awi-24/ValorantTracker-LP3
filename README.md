@@ -1,23 +1,51 @@
-Valorant Tracker App
-Este projeto foi desenvolvido como parte da disciplina de LP3, com o objetivo de criar um aplicativo que permite rastrear e fornecer informações sobre o jogo Valorant, inspirado nos trackers disponíveis para League of Legends.
 
-Integração com a ValorantAPI
-Este aplicativo faz uso da ValorantAPI para obter informações em tempo real do jogo Valorant.
+# Radiante Tracker
 
-Pré-requisitos
-Antes de iniciar, certifique-se de ter os seguintes requisitos instalados em sua máquina:
+Essa aplicação tem como objetivo servir de tracker para jogadores de Valorant, apresentando informações do jogo, bem como apresentar o progresso dos jogadores e do cenário competitivo. Foi desenvolvida para um trabalho na matéria de LP3 (Linguagem de Programação 3), com um modelo de multicamadas. 
 
-Node.js - Download e Instalação
-Yarn - Gerenciador de pacotes para Node.js. Pode ser instalado via npm após a instalação do Node.js: npm install -g yarn
+###Tecnologias
 
-Configuração do Projeto
-1. Clone este repositório para a sua máquina local
-2. Navegue até o diretório do projeto e instale as dependências utilizando o Yarn: cd valorant-tracker-app
-yarn install
-3. Configure um banco de dados de acordo com as especificações fornecidas no arquivo database/config.js.
+Foram utilizados as seguintes tecnologias:
+- Electron TS
+- React TS
+- TailwindCSS
+- Firebase
 
-Execução do Projeto
-Incie o servidor do App: yarn start
+## Instalação
 
-Contribuição
-Sinta-se à vontade para contribuir com melhorias para este projeto! Se desejar enviar um pull request, certifique-se de seguir as diretrizes de contribuição.
+Para rodar o projeto é necessário que você vá no diretório do projeto e inicialmente rode o seguinte comando:
+
+```bash
+  cd valoranttracker
+  yarn 
+```
+Com as depenências baixadas rode:
+
+```bash
+  yarn dev
+```
+    
+## Documentação da API
+
+A API utilizada por enquanto foi a [ValorantAPI](https://valorant-api.com/). A API oficial da Riot Games ainda não foi disponibilizada.
+
+#### GET AGENTS
+
+```http
+  GET https://valorant-api.com/v1/agents
+```
+
+Por enquanto apenas a função de resgate de agentes está sendo utilizada. Contudo planejamos adicionar mapas, armas e a área de estatísticas de players e times.
+
+
+## Autores
+
+- [@Adrian Widmer](https://github.com/Awi-24)
+- [@Icaro Canela]()
+- [@Rafael Matos]()
+
+
+## Licença
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
