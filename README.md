@@ -3,7 +3,7 @@
 
 Essa aplicação tem como objetivo servir de tracker para jogadores de Valorant, apresentando informações do jogo, bem como apresentar o progresso dos jogadores e do cenário competitivo. Foi desenvolvida para um trabalho na matéria de LP3 (Linguagem de Programação 3), com um modelo de multicamadas. 
 
-###Tecnologias
+##Tecnologias
 
 Foram utilizados as seguintes tecnologias:
 - Electron TS
