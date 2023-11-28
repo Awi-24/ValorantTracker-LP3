@@ -41,6 +41,7 @@ Por enquanto apenas a função de resgate de agentes está sendo utilizada. Cont
 - [@Adrian Widmer](https://github.com/Awi-24)
 - [@Icaro Canela]()
 - [@Rafael Matos]()
+- [@Eduardo Rodrigues]()
 
 
 ## Licença
