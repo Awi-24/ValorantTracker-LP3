@@ -7,7 +7,7 @@ Foram utilizados as seguintes tecnologias:
 - Electron TS
 - React TS
 - TailwindCSS
-- Firebase
+-  ̶F̶i̶r̶e̶b̶a̶s̶e̶
 
 ## Instalação
 
@@ -41,6 +41,7 @@ Por enquanto apenas a função de resgate de agentes está sendo utilizada. Cont
 - [@Adrian Widmer](https://github.com/Awi-24)
 - [@Icaro Canela]()
 - [@Rafael Matos]()
+- [@Eduardo Rodrigues]()
 
 
 ## Licença
