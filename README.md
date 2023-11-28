@@ -7,7 +7,7 @@ Foram utilizados as seguintes tecnologias:
 - Electron TS
 - React TS
 - TailwindCSS
-- Firebase
+-  ̶F̶i̶r̶e̶b̶a̶s̶e̶
 
 ## Instalação
 
